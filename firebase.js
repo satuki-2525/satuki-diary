@@ -22,5 +22,4 @@ const app = initializeApp(firebaseConfig);
 if(typeof window !== 'undefined'){
     const analytics = getAnalytics(app);
   }
-
-const analytics = getAnalytics(app);
+  
